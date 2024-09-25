@@ -1,0 +1,56 @@
+#container2{
+  background-image: url("./bg.jpg");
+  
+}
+#parent{
+   padding-top: 6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+input{
+  width: 400px;
+  padding: 8px;
+  border-radius: 10px;
+  border-color: aliceblue;
+  box-shadow: 0px 2px 0px 0px #a7a5a5; 
+  border-width: 0px; 
+  
+}
+label{
+  font-weight: bolder;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+#submit{
+  background-color: rgb(233, 210, 4);
+  border-radius:30px;
+  border-width: 0px;
+  font-size: larger;
+  padding: 15px;
+  font-weight: bolder;
+}
+#submit:hover{
+  background-color: rgb(255, 235, 50);
+  border-radius:30px;
+  border-width: 0px;
+  font-size: larger;
+  padding: 15px;
+  font-weight: bolder;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#image{
+ padding-top: 15px;
+ display: flex;
+ justify-content: space-evenly;
+ margin-bottom: 14px;
+}
+#forgot{
+  color: black;
+ 
+}
