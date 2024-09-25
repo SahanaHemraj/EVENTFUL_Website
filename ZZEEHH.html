@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <title>FREELEARN</title>
+    
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="./assets/css/animate.css" rel="stylesheet">
+    
+    
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="./assets/css/about.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+ 
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="assets/css/lightbox.css">
+     <link rel="stylesheet" href="./assets/css/style.css">
+	 
+    
+	    <!-- Google Web Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+		<!-- Icon Font Stylesheet -->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+	
+		<!-- Libraries Stylesheet -->
+		<link href="./assets/css/animate.css" rel="stylesheet">
+		
+		
+	
+		<!-- Customized Bootstrap Stylesheet -->
+		<link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+	
+		<!-- Template Stylesheet -->
+		<link href="./assets/css/about.css" rel="stylesheet">
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/templatemo-grad-school.css">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#myTab a").click(function(e){
+				e.preventDefault();
+				var targetTab = $(this).attr("href");
+				$(".tab-pane").not(targetTab).slideUp();
+				$(targetTab).slideDown();
+				$(this).tab('show');
+			});
+		});
+	</script>
+	<style>
+		.nav-link{
+			font-weight: bolder;
+			font-size: 22px;
+			padding: 20px;
+
+		}
+		.card1{
+			display: flex;
+			justify-content: space-evenly;
+		}
+
+		
+		.item1{
+              
+			  height: 550px;
+			 
+			  align-items: center;
+			  text-align: center;
+			  justify-content: center;
+			  border-radius: 10px;
+			  transition-property: box-shadow, transform;
+			  transition-duration: 350ms;
+			  transition-timing-function: ease;
+			  margin-top: 20px;
+			  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+			 
+		  }
+		  img1{
+			  object-fit:contain;
+			  
+		  }
+		  .main-header a{
+			 text-decoration: none;
+		  }
+
+		.item{
+		margin:20px ;
+		text-align: center;
+		height: 380px;
+		width: 330px;
+		border: 1px solid rgba(0, 0, 0, 0.11);
+		transition-property: box-shadow, transform;
+		transition-duration: 350ms;
+		transition-timing-function: ease;
+		box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.24);
+	}
+   
+	.card{
+		
+		height: 200px;
+	}
+
+	
+.item:is(:hover, :focus) {
+  box-shadow: 0px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  transform: translateY(-8px);
+}
+a{
+  text-decoration: none;
+}
+.timeline {
+        position: relative;
+        list-style: none;
+        padding: 0;
+      }
+
+      .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: rgb(224, 11, 110);
+      }
+
+      .timeline-item {
+        display: flex;
+        align-items: flex-start;
+        padding: 40px 0;
+        position: relative;
+      }
+
+      .timeline-item:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        background-color: #fff;
+        border: 2px solid rgb(224, 11, 110);
+        border-radius: 50%;
+        z-index: 1;
+      }
+
+      .timeline-image {
+        flex-shrink: 0;
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        position: relative;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      .timeline-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .timeline-content {
+        position: relative;
+        z-index: 1;
+        padding: 10px;
+      }
+
+      .timeline-content .title {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+
+      .timeline-content .description {
+        margin-top: 0;
+        margin-bottom: 10px;
+      }
+
+      .timeline-content .rating {
+        margin-top: 10px;
+        margin-bottom: 10px;
+     
+      }
+
+      .timeline-content .rating .fa {
+        color: rgb(224, 11, 110);
+      }
+
+      .timeline-item:hover .timeline-image {
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+        transform: translateY(-10    px);
+  }
+
+  .timeline-item:hover .timeline-content {
+    transform: translateY(-10px);
+  }
+
+  @media (max-width: 767px) {
+    .timeline {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+    }
+
+    .timeline:before {
+      left: 20px;
+    }
+
+    .timeline-item{
+      padding: 30px 0;
+      position: relative;
+      
+    }
+
+    .timeline-item:before {
+      left: 20px;
+    }
+
+    .timeline-image {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+
+    .timeline-content {
+      margin-left: 0;
+      
+    }
+  }
+  .grid {
+	display: grid;
+	margin-left: 50px;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 20px;
+	width: 90%;
+  }
+  .grid-item {
+
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border: 5px solid #fff;
+	border-radius: 10px;
+  }
+  .grid-item img {
+	width: 100%;
+	height:100%;
+	transition: transform 0.5s ease;
+  }
+  .grid-item:hover img {
+	transform: scale(1.1);
+  }
+  .grid-item .fa-heart {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	color: #ffffffa2;
+	opacity: 0;
+	animation: heartbeat 1s ease infinite;
+  }
+  .grid-item:hover .fa-heart {
+	opacity: 1;
+	
+  }
+  .grid-item:hover{
+	  border: 3px ;
+	  
+	  -webkit-box-shadow: 5px 5px 15px 5px rgb(224, 11, 110); 
+	  box-shadow: 5px 5px 15px 5px rgb(224, 11, 110);
+  }
+  .grid-item:nth-child(5),
+  .grid-item:nth-child(6),
+  .grid-item:nth-child(9),
+  .grid-item:nth-child(10),
+  .grid-item:nth-child(13),
+  .grid-item:nth-child(14),
+  .grid-item:nth-child(17),
+  .grid-item:nth-child(18) {
+	grid-row: 2 / 3;
+	margin-top: 20px;
+  }
+  @keyframes heartbeat {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(1.2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+
+	
+  }
+  #oddcol{
+	  border-radius: 30px 0 0 0;
+  }
+  #secol{
+	  position: relative;
+	  top: 80px;
+	  border-radius: 0 0 30px 0;
+  }
+	</style>
+</head>
+<body>
+	<header class="main-header clearfix" role="header">
+		<div class="logo">
+		  <a href="#"><em>Free</em> LeaRn</a>
+		</div>
+		<a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+		<nav id="menu" class="main-nav" role="navigation">
+		  <ul class="main-menu">
+			<li><a href="./home.html" target="_blank">Home</a></li>
+			<li><a href="./about.html">About Us</a> </li>
+			<li><a href="./home.html #contact">Courses</a></li>
+			<li><a href="#section6">__________</a></li>
+			<li class="has-submenu"><a href="" class="external"><img src="./images/user (1).png" alt="" height="50px"></a>
+			  <ul class="sub-menu">
+				<li><a href="./login.html">Log Out</a></li>
+	  
+			  </ul>
+			</li>
+		  </ul>
+		</nav>
+	  </header>
+	  
+  <section>
+    
+    <div >
+      <img id="img1" src="./bangalore/zee3.jpg" height="600px" width="100%" alt="">
+    </div>
+</section>
+	<div class="container-fluid mt-3">
+		<ul class="nav nav-tabs" id="myTab" role="tablist">
+			<li class="nav-item">
+				<a class="nav-link" id="courses-tab" data-toggle="tab" href="#courses-content" role="tab" aria-controls="courses-content" aria-selected="false">About</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" id="about-tab" data-toggle="tab" href="#about-content" role="tab" aria-controls="about-content" aria-selected="true">Events</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" id="review-tab" data-toggle="tab" href="#review-content" role="tab" aria-controls="review-content" aria-selected="false">Review</a>
+			</li>
+		</ul>
+		<div class="tab-content mt-3" id="myTabContent">
+			<div class="tab-pane fade" id="courses-content" role="tabpanel" aria-labelledby="courses-tab">
+				
+			 
+				<div class="container-xxl py-5">
+					<div class="container">
+						<div class="row g-5 align-items-center">
+							<div class="col-lg-6">
+								<div class="row g-3">
+									<div class="col-6 text-start">
+										<img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="./images/business4.jpg">
+									</div>
+									<div class="col-6 text-start">
+										<img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="./images/designer4.jpg" style="margin-top: 25%;">
+									</div>
+									<div class="col-6 text-end">
+										<img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="./images/developer3.jpg">
+									</div>
+									<div class="col-6 text-end">
+										<img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="./images/design3.jpg">
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<h5 class="section-title  ff-secondary text-start fw-normal" style="color: rgb(224, 11, 110)">About </h5>
+								<h1 class="mb-4">Unacademy</h1>
+								<p class="mb-4">Unacademy is an Indian online learning platform that offers a wide range of courses and lessons taught by experienced educators. It was founded in 2015 and has since become one of the largest online learning platforms in India. Unacademy offers courses in various categories, including UPSC, SSC, banking, railways, CAT, JEE, NEET, GATE, and more.</p>
+								<p class="mb-4"> In addition, the platform also provides free and paid classes on various skills and hobbies, such as programming, photography, music, and cooking. Unacademy offers live classes, recorded video lessons, quizzes, and practice tests to help learners improve their skills and prepare for competitive exams. The platform is accessible through its website and mobile app, which has over 50 million downloads. </p>
+								<div class="row g-4 mb-4">
+									<div class="col-sm-6">
+										<div class="d-flex align-items-center border-start border-5 border-primary px-3">
+											<h1 class="flex-shrink-0 display-5  mb-0" data-toggle="counter-up" style="color: rgb(224, 11, 110)">15</h1>
+											<div class="ps-4">
+												<p class="mb-0">Years of</p>
+												<h6 class="text-uppercase mb-0" style="font-weight:900;">Experience</h6>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="d-flex align-items-center border-start border-5 border-primary px-3">
+											<h1 class="flex-shrink-0 display-5  mb-0" data-toggle="counter-up" style="color: rgb(224, 11, 110)">50</h1>
+											<div class="ps-4">
+												<p class="mb-0">Popular</p>
+												<h6 class="text-uppercase mb-0" style="font-weight:900;">Courses</h6>
+											</div>
+										</div>
+									</div>
+								</div>
+								<a class="btn btn-primary py-3 px-5 mt-2" href="">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+	
+			</div>
+			<div class="tab-pane fade show active" id="about-content" role="tabpanel" aria-labelledby="about-tab">
+				<div class="grid">
+					<div class="grid-item" id="secol">
+					  <img src="./bangalore/zee1.jpg" alt="Image 1">
+					  <i class="fa fa-heart"></i>
+					</div>
+					<div class="grid-item" id="oddcol">
+						<img src="./bangalore/zee2.jpg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/zee3.jpg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/zee4.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/zee5.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/zee6.jpg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/zee7.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/zee8.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/21.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/24.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/26.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/27.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					<!-- Add more grid items here -->
+				  </div>
+				  <br>
+				  <div class="grid">
+					<div class="grid-item" id="secol">
+					  <img src="./bangalore/31.jpeg" alt="Image 1">
+					  <i class="fa fa-heart"></i>
+					</div>
+					<div class="grid-item" id="oddcol">
+						<img src="./bangalore/32.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="secol">
+						<img src="./bangalore/33.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/33.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid" id="secol">
+						
+						
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/34.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+					  <div class="grid" id="secol">
+					
+						
+					  </div>
+					  <div class="grid-item" id="oddcol">
+						<img src="./bangalore/35.jpeg" alt="Image 1">
+						<i class="fa fa-heart"></i>
+					  </div>
+				
+					<!-- Add more grid items here -->
+				  </div>
+			</div>
+			<div class="tab-pane fade" id="review-content" role="tabpanel" aria-labelledby="review-tab">
+				<div class="container">
+					<div class="row">
+					  <div class="col-md-12">
+						
+						<ul class="timeline">
+						  <li class="timeline-item" >
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 1"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">GUGLAVATH SHARATH NAYAK G</h3>
+							  <p class="description">
+								I am Sharath, pursuing my BTech in chemical engineering. I am using unacademy for gate coaching. The classes are scheduled according to the timings, and we can plan and study. We have the option of self-study. We can see the recording videos of experts in subjects.
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item">
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 2"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">PATLOLLA VISHNU SAI P.</h3>
+							  <p class="description">
+								I am one of the users of unacademy. I like how the mentors teach and guide, and they will give tips and tricks for competitive exams such as GATE, UPSC, BANK EXAMS, SSC and other competitive exams. The prices are affordable. Even a beginner can understand they will teach from the basics
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item">
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 3"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">SAIDALA HEMA MANIKANTA S.</h3>
+							  <p class="description">
+								The educators on this platform conduct live doubt clearing sessions with an in-depth explanation of anything and everything required by a learner. Unacademy offers wide range of courses and these courses are designed to help learners achieve their goals and succeed in their exams.
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item" >
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 1"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">Sheshikanth K.</h3>
+							  <p class="description">
+								Unacademy has set the right benchmarks when it comes to courses and its expanse. On this platform, there are well experienced and passionate tutors are available and they cover wide range of topics in an easy understanding way.
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item">
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 2"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">LAVUDYA SAI KIRAN L.</h3>
+							  <p class="description">
+								The most helpful about the unacademy is that we fruitfully get an education so that we can understand every topic clearly for the competitive exam, which is off it may be government or central government
+
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star-half-alt"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item">
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 3"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">Pratap M.</h3>
+							  <p class="description">
+								Unacademy provides different types of online tutions for different types of competitive exams. It also host live doubt clearing sessions with educators. There are several types of courses provided by unacademy such as for GATE, ESE, UPSC, etc.
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+								<i class="far fa-star"></i>
+							  </div>
+							</div>
+						  </li>
+						  <li class="timeline-item" >
+							<div class="timeline-image">
+							  <img
+								src="./user/user (3).png"
+								alt="Image 1"
+							  />
+							</div>
+							<div class="timeline-content" style="border: 2px solid black; background-color: aliceblue;">
+							  <h3 class="title">Komal </h3>
+							  <p class="description">
+								Best app for orepartion of Upsc exams and have a wode reach because of various available courses on barious topics. Like the interactive manner of studying.
+							  </p>
+							  <div class="rating">
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="fas fa-star"></i>
+								<i class="far fa-star"></i>
+							  </div>
+							</div>
+						  </li>
+						 
+						</ul>
+					  </div>
+					</div>
+				  </div>
+				
+			</div>
+		</div>
+	</div>
+  
+	<footer>
+		<div class="containerfoot">
+		  <div class="cf1">
+			<nav>
+			  <h5 class="section-title  ff-secondary text-start text-end fw-normal" style="color: #fea116; font-size: 40px;">Company_</h5>
+			  <ul>
+				  <li>
+					  <a href="./home.html" >Home</a>
+				  </li>
+				  <li>
+					  <a href="./about.html" >about us </a>
+				  </li>
+				  <li>
+					  <a href="" >Courses</a>
+				  </li>
+				  
+			  </ul>
+		  </nav>
+		  </div>
+		  <div class="cf2">
+			<nav>
+			  <h5 class="section-title  ff-secondary text-start text-end fw-normal" style="color: #fea116; font-size: 40px;">Contact_</h5>
+			  <ul>
+				  <li>
+				   
+				   <a class="btn btn-social-icon btn-twitter">
+					<span class="fa fa-map-marker" style="color: white; font-size: 20px" > <a href="" style="color: white;"> 123 Street,New Delhi,USA,Bangalore</a>  </span>
+					
+				  </a>
+				  </li>
+				  <li>
+					
+					  <a class="btn btn-social-icon btn-twitter">
+						<span class="fa fa fa-phone" style="color: white; font-size: 20px; ">  <a href="" style="color: white;"> +0123456789</a> </span>
+					  </a>
+				  </li>
+				  <li>
+				 
+					<a class="btn btn-social-icon btn-twitter">
+					  <span class="fa fa fa fa fa-envelope" style="color: white; font-size: 20px; "><a href="" style="color: white;">  mail@FreeLearn</a></span>
+					</a>
+		
+					
+					  
+				  </li>
+				  
+			  </ul>
+		  </nav>
+		  </div>
+		  <div class="cf3">
+			<a class="btn btn-social-icon btn-twitter " >
+			  <span class="fa fa-twitter" style="color: white; font-size: 50px;padding: 30px; padding-top: 120px; padding-bottom: 30px; " ></span>
+			</a>
+			<a class="btn btn-social-icon btn-twitter">
+			  <span class="fa fa-youtube" style="color: white; font-size: 50px;padding: 30px ;padding-top: 120px; padding-bottom: 30px;" ></span>
+			</a>
+			<a class="btn btn-social-icon btn-twitter">
+			  <span class="fa fa-github" style="color: white; font-size: 50px; padding: 30px;padding-top: 120px; padding-bottom: 30px;" ></span>
+			</a>
+			<a class="btn btn-social-icon btn-twitter">
+			  <span class="fa fa-linkedin" style="color: white; font-size: 50px;padding: 30px;padding-top: 120px; padding-bottom: 30px;" ></span>
+			</a>
+		  </div>
+		  <hr>
+		  
+		</div>
+		<div class="containerfoot1">
+		  <div class="copy1">
+			<h6>&copy; FreeLearn, All Rights Reserved. Designed By Nischitha SV</h6>
+			
+		  </div>
+		  <div class="copy2">
+		
+		   <div><a href="">Home </a> <a href="">|</a></div> 
+			<div><a href="">Cookies</a><a href="">|</a></div>
+			<div><a href="">Help</a><a href="">|</a></div>
+		   <div> <a href="">FAQs</a><a href="">|</a></div>
+		  </div>
+		</div>
+		
+		
+		
+		</footer>
+
+</body>
+</html>
